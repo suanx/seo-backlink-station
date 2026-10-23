@@ -1,0 +1,31 @@
+# 依赖
+node_modules/
+
+# 构建产物
+dist/
+.edgeone/
+.vite/
+
+# 本地配置与环境变量（严禁提交密钥）
+.env
+.env.*
+!.env.example
+*.local
+
+# 日志
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# 编辑器与系统
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+.DS_Store
+Thumbs.db
